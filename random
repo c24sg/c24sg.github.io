@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+		
+		#nugget{
+			width:200px
+			background-color: blue
+			height:200px;
+			background-image:url(nugget.png);
+			background-size:contain;
+			background-repeat:no-repeat
+			;
+			background-position: center;
+			position:absolute;
+			left:30px
+			top:100px;
+			animation-name: dance;
+			animation-duration: 2s;
+
+
+		}
+
+		@keyframes dance{
+			0% {transform:rotate(-90deg);}
+
+			50% {transform: rotate(-90deg);}
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div> 
+		
+	</div>
+
+</body>
+</html>
